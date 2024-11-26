@@ -50,11 +50,11 @@ python main.py
 
 # Autor
 
-Amanda Simões dos Santos
-Giovana Leão Vieira de Almeida
-João Gabriel Falcão dos Santos
-João Victor Gonçalves Correia Evangelista
-João Vitor Pereira Rodrigues
+Amanda Simões dos Santos<br>
+Giovana Leão Vieira de Almeida<br>
+João Gabriel Falcão dos Santos<br>
+João Victor Gonçalves Correia Evangelista<br>
+João Vitor Pereira Rodrigues<br>
 
 
 
