@@ -48,7 +48,7 @@ python main.py
 
 ```
 
-# Autor
+# Autores
 
 Amanda Simões dos Santos<br>
 Giovana Leão Vieira de Almeida<br>
