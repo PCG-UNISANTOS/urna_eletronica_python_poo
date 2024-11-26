@@ -11,7 +11,7 @@ O projeto é uma aplicação em python que tem o objetivo de reproduzir uma urna
 
 <div align="center">
   
-![Mobile 1](https://github.com/PCG-UNISANTOS/urna_eletronica_python_poo.git/blob/main/assets/tela-cadastro.png) 
+![Mobile 1](https://github.com/PCG-UNISANTOS/urna_eletronica_python_poo/blob/Readme/assets/tela-cadastro.png) 
 
 </div>
 
@@ -19,7 +19,7 @@ O projeto é uma aplicação em python que tem o objetivo de reproduzir uma urna
 
 <div align="center">
   
-![Mobile 1](https://github.com/PCG-UNISANTOS/urna_eletronica_python_poo.git/blob/main/assets/tela-da-urna.png) 
+![Mobile 1](https://github.com/PCG-UNISANTOS/urna_eletronica_python_poo/blob/Readme/assets/tela-da-urna.png) 
 
 </div>
 
