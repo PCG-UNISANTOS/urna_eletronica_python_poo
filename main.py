@@ -71,3 +71,42 @@ def tela_cadastro():
         entry_cpf.delete(0, tk.END)
         entry_secao.delete(0, tk.END)
         entry_zona.delete(0, tk.END)
+
+    cadastro = tk.Tk()
+    cadastro.title("Cadastro de Eleitores e Candidatos")
+    cadastro.geometry("400x300")
+
+    tk.Label(cadastro, text="Título/Número:").grid(row=0, column=0, padx=10, pady=5)
+    entry_titulo = tk.Entry(cadastro)
+    entry_titulo.grid(row=0, column=1, padx=10, pady=5)
+
+    tk.Label(cadastro, text="Nome:").grid(row=1, column=0, padx=10, pady=5)
+    entry_nome = tk.Entry(cadastro)
+    entry_nome.grid(row=1, column=1, padx=10, pady=5)
+
+    tk.Label(cadastro, text="RG:").grid(row=2, column=0, padx=10, pady=5)
+    entry_rg = tk.Entry(cadastro)
+    entry_rg.grid(row=2, column=1, padx=10, pady=5)
+
+    tk.Label(cadastro, text="CPF:").grid(row=3, column=0, padx=10, pady=5)
+    entry_cpf = tk.Entry(cadastro)
+    entry_cpf.grid(row=3, column=1, padx=10, pady=5)
+
+    tk.Label(cadastro, text="Seção:").grid(row=4, column=0, padx=10, pady=5)
+    entry_secao = tk.Entry(cadastro)
+    entry_secao.grid(row=4, column=1, padx=10, pady=5)
+
+    tk.Label(cadastro, text="Zona:").grid(row=5, column=0, padx=10, pady=5)
+    entry_zona = tk.Entry(cadastro)
+    entry_zona.grid(row=5, column=1, padx=10, pady=5)
+
+    btn_eleitor = tk.Button(cadastro, text="Salvar Eleitor", command=salvar_eleitor)
+    btn_eleitor.grid(row=6, column=0, padx=10, pady=10)
+
+    btn_candidato = tk.Button(cadastro, text="Salvar Candidato", command=salvar_candidato)
+    btn_candidato.grid(row=6, column=1, padx=10, pady=10)
+
+    btn_limpar = tk.Button(cadastro, text="Limpar Campos", command=limpar_campos)
+    btn_limpar.grid(row=7, column=0, columnspan=2, pady=10)
+
+    cadastro.mainloop()
